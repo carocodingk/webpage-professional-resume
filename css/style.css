@@ -1,0 +1,224 @@
+*	{
+	box-sizing: border-box;
+}
+
+#shortName {
+	display: none;
+}
+
+body	{
+	margin: 0px;
+	font-family: Libre+Baskerville, Georgia, serif;
+	background-color: #19362C;
+	font-size: 16px;
+}
+
+.midGreen {
+	background-color: #295948;
+}
+
+.greenAnchor:hover{
+	color: #489B7E;
+} 
+
+.darkSlateColor {
+	color: #B7C4B7;
+}
+
+.slateColor {
+	color: #E9EDE9;
+}
+
+.fixedItem {
+	position: fixed;
+}
+
+#menuIcon2,
+#menu2  {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.noListStyle {
+	list-style: none;
+}
+
+.centerText {
+	text-align: center;
+}
+
+p  {
+	padding: 0.45rem 0;
+}
+
+.noPadding {
+	padding: 0px;
+}
+
+.noMargin {
+	margin: 0px;
+}
+
+.padding1rem {
+	padding: 1rem;
+}
+
+.padding0_5rem {
+	padding: 0.45rem;
+}
+
+.eachSection	{
+	padding: 6rem 5rem 3rem;
+}
+
+#profile {
+	padding: 8rem 0 8rem;
+}
+
+.margin1rem {
+	margin: 0 1rem 0;
+}
+
+#menu2 {
+	top: 82px;
+}
+
+.titleName {
+	margin-bottom: 4rem;
+}
+
+#profileDiv  {
+	padding-top:4rem;
+	margin-top: 3rem; 
+}
+
+.profileComp	{
+	max-width: 400px;
+	height: 311px;
+}
+
+#profileDetail	{
+	background-color: white;
+}
+
+.profileCenter {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.icons {
+	color: white;
+	margin: 0px 15px 3px;
+}
+
+.skillItem	{
+	min-width: 20rem;
+	padding: 2rem;
+}
+
+.marginOnerem {
+	margin: 1rem;
+}
+
+.subjectTitle  {
+	padding-bottom: 1rem;
+}
+
+.right	{
+	margin: 0 0 1rem;
+}
+
+.left	{
+	text-align: right;
+	margin: 0 1rem 0;
+	min-width: 320px;
+}
+
+.notLast  {
+	margin: 0 0 3rem;
+}
+
+.subject	{
+	max-width: 320px;
+}
+
+#contactList  {
+	font-size: 1.1rem;
+}
+
+.subject,
+.sideItemB  {
+	padding: 1.5rem;
+}
+
+@media screen and (min-width:800px) and (max-width: 1025px){ 
+	nav ul  {
+		margin: 0.5rem;
+	}
+}
+
+@media screen and (min-width: 401px) and (max-width: 799px) {
+	.reducedSize1 {
+		width: 400px;
+	}
+}
+
+
+@media screen and (max-width: 700px) {
+	#menuIcon2{
+		display: block;
+	}
+
+	#menu2 {
+		width: 100%;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.left  {
+		text-align: left;
+		padding: 0px 0px 0px 0px;
+	}
+
+	.left, 
+	.right  {
+		margin: 0px;
+		padding: 0;
+	}
+
+	.notLast  {
+		margin-bottom: 15px;
+	}
+
+	.right ul  {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.widthSmall100 {
+		width: 100%;
+	}
+
+	.subject {
+		padding: 0.5rem;
+		min-width: 90vw;
+	}
+	#shortName {
+		display: flex
+	}
+
+	#longName {
+		display: none;
+	}
+}
+
