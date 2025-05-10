@@ -76,6 +76,7 @@ p  {
 
 #profile {
 	padding: 8rem 0 8rem;
+	height: 100vh;
 }
 
 .margin1rem {
@@ -116,6 +117,10 @@ p  {
 .icons {
 	color: white;
 	margin: 0px 15px 3px;
+}
+
+#skills {
+	height: 100vh;
 }
 
 .skillItem	{
